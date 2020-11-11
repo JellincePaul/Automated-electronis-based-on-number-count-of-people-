@@ -18,6 +18,7 @@ void loop() {
     if(pirState2 == HIGH)
     {
       Serial.println("Person Entered the room");
+      digitalWrite(ledPin,HIGH);      
     }
   }
   else if(pirState2 == HIGH)
